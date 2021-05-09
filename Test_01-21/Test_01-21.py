@@ -1,4 +1,4 @@
 h = int(input())
 a = int(input())
 b = int(input())
-print()
+print((h - a) // (a - b) + 1)
