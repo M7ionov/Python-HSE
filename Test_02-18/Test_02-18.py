@@ -17,6 +17,6 @@ if a1 == a2 and b1 == b2 and c1 == c2:
 elif a1 <= a2 and b1 <= b2 and c1 <= c2:
     print("The first box is smaller than the second one")
 elif a1 >= a2 and b1 >= b2 and c1 >= c2:
-    print("the first box is larger than the second one")
+    print("The first box is larger than the second one")
 else:
     print("Boxes are incomparable")
