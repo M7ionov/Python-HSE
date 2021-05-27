@@ -15,7 +15,7 @@ elif r2 <= l3 <= length1 + r2 or r3 <= l2 <= length1 + r3:
     print(1)
 elif l1 <= r3 and l3 <= r1:
     print(2)
-elif r1 <= l3 <= length2 + r1 or r3 <= l1 <= length2 +r3:
+elif r1 <= l3 <= length2 + r1 or r3 <= l1 <= length2 + r3:
     print(2)
 elif l2 <= r1 and l1 <= r2:
     print(3)
