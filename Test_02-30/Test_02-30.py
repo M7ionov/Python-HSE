@@ -1,4 +1,3 @@
-x: int
 x, y = int(input()), int(input())
 day = 1
 while x < y:
