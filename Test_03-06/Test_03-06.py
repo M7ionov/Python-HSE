@@ -1,4 +1,5 @@
 p = int(input())
 x = int(input())
 y = int(input())
-print(x+int((x+(y/100))*p/100), round(y+y*p/100))
+sum = (x*100 + y)*(100 + p)/100
+print(int(sum/100), int(sum % 100))
