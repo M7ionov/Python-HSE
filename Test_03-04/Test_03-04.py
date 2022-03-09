@@ -1,2 +1,2 @@
 x = float(input())
-print(int(x), int((x*100) % 100))
+print(int(x), round((x - int(x)) * 100))
